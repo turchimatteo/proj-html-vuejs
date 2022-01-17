@@ -23,6 +23,6 @@ export default {
 }
 body {
   font-family: sans-serif;
-  background-color: #555;
+  background-color: white;
 }
 </style>
