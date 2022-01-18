@@ -17,7 +17,7 @@
                         <h4>Headache free</h4>
                         <h2>Award winning moving company</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam at repellat, dolorem non iste, sint ut fugiat necessitatibus autem eos laudantium, exercitationem nihil corrupti dolorum quo! Temporibus vero deleniti at.</p>
-                        <span>Read our testimonials</span>
+                        <span class="my_button">Read our testimonials</span>
                     </div>
                </div>
             </div>
@@ -81,14 +81,6 @@
     }
     p {
         margin-bottom: 30px;
-    }
-    span {
-        background-color: #1975c0;
-        color: white;
-        padding: 12px;
-        border-radius: 100px;
-        margin-left: 10px;
-        cursor: pointer;
     }
 }
 </style>

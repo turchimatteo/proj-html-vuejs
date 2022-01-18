@@ -27,7 +27,7 @@
                         <a href="#">FAQ</a>
                         <a href="#">Blog</a>
                         <a href="#">Contact</a>
-                        <span>Free Quote</span>
+                        <span class="my_button">Free Quote</span>
                     </nav>
                 </div>
             </div>
@@ -64,14 +64,6 @@
             }
             a:hover {
                 color: #69bf14;
-            }
-            span {
-                background-color: #1975c0;
-                color: white;
-                padding: 12px;
-                border-radius: 100px;
-                margin-left: 10px;
-                cursor: pointer;
             }
         }
     }

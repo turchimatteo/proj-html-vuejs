@@ -1,7 +1,12 @@
 .container {
     max-width: 70%;
     margin: auto;
-
-    /* test */
-    border: 1px solid red;
+}
+.my_button {
+    background-color: #1975c0;
+    color: white;
+    padding: 12px;
+    border-radius: 100px;
+    margin-left: 10px;
+    cursor: pointer;
 }
