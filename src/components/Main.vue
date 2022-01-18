@@ -15,7 +15,7 @@
                 <div class="award-winning">
                     <div>
                         <h4>Headache free</h4>
-                        <h2>Award winning moving company</h2>
+                        <h2>Award Winning Moving Company</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam at repellat, dolorem non iste, sint ut fugiat necessitatibus autem eos laudantium, exercitationem nihil corrupti dolorum quo! Temporibus vero deleniti at.</p>
                         <span class="my_button">Read our testimonials</span>
                     </div>
