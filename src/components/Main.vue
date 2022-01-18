@@ -39,6 +39,7 @@
     line-height: 1.5;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: -35px;
     h1 {
         font-size: 50px;
     }
