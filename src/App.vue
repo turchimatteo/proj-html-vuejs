@@ -5,6 +5,7 @@
     <ServiceSolution />
     <MoveWhitEase />
     <Testimonials />
+    <FreeQuote />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Main from "./components/Main.vue";
 import ServiceSolution from "./components/ServiceSolution.vue";
 import MoveWhitEase from "./components/MoveWithEase.vue";
 import Testimonials from "./components/Testimonials.vue";
+import FreeQuote from "./components/FreeQuote.vue";
 
 
 export default {
@@ -24,6 +26,7 @@ export default {
     ServiceSolution,
     MoveWhitEase,
     Testimonials,
+    FreeQuote,
   },
 };
 </script>
