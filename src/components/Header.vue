@@ -50,6 +50,7 @@
 }
 .second-header {
     padding: 10px;
+    
     .menu {
         display: flex;
         justify-content: space-between;
