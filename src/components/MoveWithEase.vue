@@ -36,16 +36,12 @@
             line-height: 1.5;
             border: 8px solid #4c8d53;
             text-align: center;
+            color: white;
             h4 {
-                text-transform: uppercase;
-                color: #6b6b6b;
-                font-size: 14px;
-                margin-bottom: 10px;
+                color: white;
             }
             h2 {
                 color: white;
-                font-size: 35px;
-                margin-bottom: 10px;
             }
             hr {
                 background-color: #74d315;
@@ -56,7 +52,6 @@
                 margin-bottom: 10px;
             }
             p {
-                color: white;
                 line-height: 1.7;
                 margin-bottom: 20px;
             }

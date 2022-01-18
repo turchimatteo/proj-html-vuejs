@@ -39,10 +39,6 @@
     line-height: 1.5;
     text-transform: uppercase;
     font-weight: bold;
-    h4 {
-        color: #6b6b6b;
-        font-size: 15px;
-    }
     h1 {
         font-size: 50px;
     }
@@ -67,18 +63,6 @@
     justify-content: center;
     align-items: center;
     line-height: 1.5;
-    h4 {
-        color: #6b6b6b;
-        font-size: 15px;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-    h2 {
-        color: #69bf14;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
     p {
         margin-bottom: 30px;
     }

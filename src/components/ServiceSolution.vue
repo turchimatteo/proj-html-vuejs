@@ -43,17 +43,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    h4 {
-        text-transform: uppercase;
-        color: #6b6b6b;
-        font-size: 15px;
-    }
-    h2 {
-        color: #69bf14;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        font-size: 40px;
-    }
  }
     .cards {
     display: flex;

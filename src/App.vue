@@ -4,6 +4,7 @@
     <Main />
     <ServiceSolution />
     <MoveWhitEase />
+    <Testimonials />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import ServiceSolution from "./components/ServiceSolution.vue";
 import MoveWhitEase from "./components/MoveWithEase.vue";
+import Testimonials from "./components/Testimonials.vue";
 
 
 export default {
@@ -21,6 +23,7 @@ export default {
     Main,
     ServiceSolution,
     MoveWhitEase,
+    Testimonials,
   },
 };
 </script>
