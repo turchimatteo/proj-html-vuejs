@@ -3,7 +3,7 @@
         <div class="first-header">
             <div class="container">
                 <div class="icons">
-                    <div><i class="fas fa-phone"></i> Call us for a Free Quote: 1.800.555.6789</div>
+                    <div><i class="fas fa-phone"></i> Call us for a Free Quote: <span class="telephone-number">1.800.555.6789</span></div>
                     <div>
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-twitter"></i>
@@ -21,12 +21,11 @@
                         <img src="../assets/images/avada-movers-logo.png" alt="">
                     </div>
                     <nav>
-                        <a href="#">Home</a>
-                        <a href="#">Rates</a>
-                        <a href="#">Testimonials</a>
-                        <a href="#">FAQ</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
+                        <ul>
+                            <li v-for="(link, index) in links" :key="index" :class="{current: link.current}">
+                                <a href="link.url"> {{ link.text }}</a>
+                            </li>
+                        </ul>
                         <span class="my_button">Free Quote</span>
                     </nav>
                 </div>
@@ -34,6 +33,17 @@
         </div>
     </header>
 </template>
+<script>
+export default {
+    name: "Header",
+    props: ['links'],
+    data: function() {
+        return {
+
+        };
+    }
+}
+</script>
 <style scoped lang="scss">
 @import '../style/general.scss';
 .first-header {
@@ -43,8 +53,12 @@
     .icons {
         display: flex;
         justify-content: space-between;
+        .telephone-number {
+            cursor: copy;
+        }
         i {
             margin-right: 7px;
+            cursor: pointer;
         }
     }
 }
@@ -56,14 +70,25 @@
         justify-content: space-between;
         nav {
             margin-top: 25px;
-            a {
-                text-decoration: none;
-                color: black;
-                margin-left: 15px;
-                font-weight: bold;
+            display: flex;
+            justify-content: center;
+            ul {
+                display: flex;
+                flex-direction: row;
+                list-style-type: none;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 15px;
+                    font-weight: bold;
+                }
+                a:hover {
+                    color: #69bf14;
+                }
             }
-            a:hover {
-                color: #69bf14;
+            .my_button {
+                margin-top: -10px;
+                height: 43px;
             }
         }
     }
